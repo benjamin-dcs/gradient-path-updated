@@ -3,7 +3,7 @@ import { svgElem, styleAttrs, segmentToD, convertPathToNode } from './_utils';
 import { DEFAULT_PRECISION } from './_constants';
 
 export default class GradientPath {
-  constructor({ path, segments, samples, precision = DEFAULT_PRECISION }) {
+  constructor({ path, segments, samples, precision = DEFAULT_PRECISION, removeChild = false }) {
     // If the path being passed isn't a DOM node already, make it one
     this.path = convertPathToNode(path);
 
@@ -33,7 +33,8 @@ export default class GradientPath {
     this.svg.appendChild(this.group);
 
     // Remove the main path once we have the data values
-    this.path.parentNode.removeChild(this.path);
+    if (removeChild) {
+      this.path.parentNode.removeChild(this.path) };
   }
 
   render({ type, stroke, strokeWidth, fill, width }) {
