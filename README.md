@@ -1,3 +1,9 @@
+## Changed compared to official
+
+April 2025:
+- Updated dependencies
+- Added removeChild boolean for [Template Gauge Card](https://github.com/benjamin-dcs/template-gauge-card)
+
 # Gradient Path
 
 ![Travis (.org)](https://img.shields.io/travis/cereallarceny/gradient-path.svg?color=green)
