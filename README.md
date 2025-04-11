@@ -2,7 +2,7 @@
 
 April 2025:
 - Updated dependencies
-- Added removeChild boolean for [Template Gauge Card](https://github.com/benjamin-dcs/template-gauge-card)
+- Added removeChild boolean for [Gauge Card Pro](https://github.com/benjamin-dcs/gauge-card-pro)
 
 # Gradient Path
 
