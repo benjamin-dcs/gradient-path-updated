@@ -69,7 +69,7 @@
     "pretty-quick": "^4.1.1",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "rollup": "^2.79.2",
+    "rollup": "^4.0.0",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4"
   }
