@@ -47,14 +47,14 @@
     "2fa": true
   },
   "dependencies": {
-    "@rollup/plugin-babel": "^5.0.0",
+    "@rollup/plugin-babel": "^6.0.4",
     "tinygradient": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
-    "@rollup/plugin-babel": "^5.0.0",
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@storybook/addon-docs": "^8.6.12",
@@ -69,7 +69,7 @@
     "pretty-quick": "^4.1.1",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "rollup": "^2.79.2",
+    "rollup": "^4.38.8",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4"
   }
