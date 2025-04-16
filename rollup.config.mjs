@@ -32,7 +32,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      file: "dist/gradient-path.js",
+      file: "dist/gradient-path_2.4.0.js",
       format: "es",
       inlineDynamicImports: true,
     },

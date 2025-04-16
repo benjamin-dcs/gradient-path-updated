@@ -1,6 +1,6 @@
 {
   "name": "gradient-path",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "A small library to have any gradient follow along any SVG path",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -14,10 +14,6 @@
     "build": "rollup -c",
     "prepare": "yarn build",
     "version": "auto-changelog -p && git add CHANGELOG.md",
-    "start": "start-storybook",
-    "storybook-build": "build-storybook -c .storybook",
-    "predeploy": "yarn storybook-build",
-    "deploy": "gh-pages -d storybook-static && rm -rf storybook-static",
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
@@ -57,9 +53,6 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
-    "@storybook/addon-docs": "^8.6.12",
-    "@storybook/addon-knobs": "^8.0.1",
-    "@storybook/react": "^8.6.12",
     "auto-changelog": "^2.5.0",
     "babel-loader": "^10.0.0",
     "d3": "^7.9.0",
@@ -67,8 +60,8 @@
     "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "pretty-quick": "^4.1.1",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "rollup": "^4.38.8",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4"
