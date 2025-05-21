@@ -1,7 +1,6 @@
 ## Changed compared to official
 
 April 2025:
-- Added removeChild boolean for [Gauge Card Pro](https://github.com/benjamin-dcs/gauge-card-pro)
 - Previously created elements are removed. Allows for rerendering/dynamic gradients
 - Updated dependencies
 
