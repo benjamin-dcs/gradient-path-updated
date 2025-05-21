@@ -1,6 +1,6 @@
 ## Changed compared to official
 
-April 2025:
+May 2025:
 - Previously created elements are removed. Allows for rerendering/dynamic gradients
 - Updated dependencies
 
