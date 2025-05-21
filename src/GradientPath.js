@@ -23,11 +23,20 @@ export default class GradientPath {
     // Append a group to the SVG to capture everything we render and ensure our paths and circles are properly encapsulated
     this.svg = path.closest('svg');
     this.group = svgElem('g', {
-      class: 'gradient-path'
+      class: 'gradient-path',
+      id: 'gradient-path-container'
     });
 
     // Get the data
     this.data = getData({ path, segments, samples, precision });
+
+    // Remove previously created children
+    const kids = this.path.parentNode.childNodes
+    for (let i = kids.length - 1; i >= 0; i--) {
+      if (kids[i].id === 'gradient-path-container'){
+        this.path.parentNode.removeChild(kids[i]);
+      }
+    }
 
     // Append the main group to the SVG
     this.svg.appendChild(this.group);
